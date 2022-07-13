@@ -1,4 +1,4 @@
-```python
+```python:
 f = open("myfile.txt","w")
 l1 = input("Enter the Text")
 l2 = input("Enter the TEXT 2")
