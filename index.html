@@ -6,6 +6,34 @@
 </head>
 <body>
 
+<h1 >READ ME</h1>
+  <pre ><code class="python">
+         
+    ######################################################  
+    #  $$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ $$\        #
+    # $$  __$$\ $$  __$$\ $$ | $$  |$$ |  $$ |$$ |       #
+    # $$ /  \__|$$ /  $$ |$$ |$$  / $$ |  $$ |$$ |       #
+    # $$ |$$$$\ $$ |  $$ |$$$$$  /  $$ |  $$ |$$ |       #
+    # $$ |\_$$ |$$ |  $$ |$$  $$    $$ |  $$ |$$ |       #
+    # $$ |  $$ |$$ |  $$ |$$ |\$$\  $$ |  $$ |$$ |       #
+    # \$$$$$$  | $$$$$$  |$$ | \$$\ \$$$$$$  |$$$$$$$$\  #
+    #  \______/  \______/ \__|  \__| \______/ \________| #
+    ######################################################          
+         ▄████  ▒█████   ██ ▄█▀ █    ██  ██▓    
+        ██▒ ▀█▒▒██▒  ██▒ ██▄█▒  ██  ▓██▒▓██▒    
+       ▒██░▄▄▄░▒██░  ██▒▓███▄░ ▓██  ▒██░▒██░    
+       ░▓█  ██▓▒██   ██░▓██ █▄ ▓▓█  ░██░▒██░    
+       ░▒▓███▀▒░ ████▓▒░▒██▒ █▄▒▒█████▓ ░██████▒
+        ░▒   ▒ ░ ▒░▒░▒░ ▒ ▒▒ ▓▒░▒▓▒ ▒ ▒ ░ ▒░▓  ░
+         ░   ░   ░ ▒ ▒░ ░ ░▒ ▒░░░▒░ ░ ░ ░ ░ ▒  ░
+       ░ ░   ░ ░ ░ ░ ▒  ░ ░░ ░  ░░░ ░ ░   ░ ░   
+             ░     ░ ░  ░  ░      ░         ░  ░
+			 
+REPOSITORI LINK :- https://github.com/BISGBLY/BISPY
+MADE FOR BIGHT INTERNATIONAL SCHOOL ONLY!
+			 
+                                         	
+ </pre>
 <h1 >Vowels_counter</h1>
   <pre ><code class="python">def fib(n):
 st=input("Enter a string")
@@ -27,19 +55,6 @@ for i in l:
         s=s+1
 
 print(s)  </pre>
-<h1>intro.txt</h1>
-  <pre><code class="python">def fib(n):
-w = open("intro.txt","w")
-text=input("Enter input the Text:")
-w.write(text)
-w.close()
-
-print("Content of  into.txt file is:")
-w = open("intro.txt","r")
-d = w.read()
-print(d)
-w.close</pre>
-
 
 <h1>MyFile.txt</h1>
   <pre><code class="python">def fib(n):
@@ -60,17 +75,59 @@ f=open("myfile.txt","r")
 d = f.read()
 print(d)
 f.close</pre>
-<h1 >Vowels_counter</h1>
+<h1>PROJECT #9 intro.txt IMG Source https://imgur.com/n6h9WQP </h1>
+  <pre><code class="python">def fib(n):
+w = open("intro.txt","w")
+text=input("Enter input the Text: ")
+w.write(text)
+w.close()
+
+print("Content of  into.txt file is:")
+w = open("intro.txt","r")
+d = w.read()
+print(d)
+w.close</pre>
+<h1 >PROJECT #8 Insertion sort IMG Source https://imgur.com/oqZaPvy</h1>
   <pre ><code class="python">def fib(n):
-st=input("Enter a string")
-st=st.lower()
-c=0
+#write program for Insertion sort 
+a = [70,49,31,6,65,81,68] 
+print("Original list:-",a) 
+for i in a: 
+    j = a.index(i) 
+    while j>0:
+       if a[j-1] > a[j]: 
+            a[j-1],a[j] = a[j], a[j-1]
+    else : 
+        break 
+    j = j-1
 
-v=["a","e","i","o","u"]
-
-for i in v:
-    c=c+1
-
-print(c)    </pre>
-
+print("List after sorting -_- -_- " , a) </pre>
+<h1>PROJECT #6 Bubble Sort IMG Source https://imgur.com/QRWse8W </h1>
+  <pre><code class="python">def fib(n):
+# write a program for Bubble sort.
+def main () :
+    l = [42 ,29,74,11,65,58]
+    n = len (l) 
+    print ("Original List",l) 
+    for i in range (n-l) : 
+        for j in range (n-i-l):
+            if l[j] > l[j+l]:
+                l[j],l[j+l] = l[j+l],l[j]
+    print('`List after sorting is:", l)
+</pre>
+<h1>PROJECT #3 Login System IMG Source https://imgur.com/U7Y4ocb </h1>
+  <pre><code class="python">def fib(n):
+username =input("Enter your name")
+password =input("Enter your password") 
+def has_access(usr,pwd): 
+    if usr == "Bright" and pwd == "12345": return True
+    else:
+        return False 
+x = has_access(username,password) 
+if x == True:
+    print("Access Grated") 
+else:
+    print("Access denied") </pre>
+	
+	
 </body>
