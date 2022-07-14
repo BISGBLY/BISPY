@@ -1,0 +1,18 @@
+- Format Run Options Window Help
+
+ft€ a program to check whether a given
+P= ant(input ("Enter number to check") )
+al =n
+
+number i Armstrong Number or
+
+hile (n>0) :
+d = n%10
+se St (d*d*d)
+n = n//10
+
+s=n1:
+print( "Armt
+
+ 
+

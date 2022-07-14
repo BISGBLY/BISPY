@@ -1,0 +1,28 @@
+   
+
+ormat Run Options Window Help
+
+program for Insertion sort
+770,49,31,6,65,81, 68]
+
+fe Original list-:-—",a)
+
+fin a:
+
+3 = a-.index(i)
+
+while j>0:
+
+a —ij > ali]:
+
+    
+       
+    
+     
+
+  
+
+  
+
+   
+

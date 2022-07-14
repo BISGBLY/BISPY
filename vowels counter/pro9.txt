@@ -1,0 +1,25 @@
+File Edit Format Run Options Window Help
+
+# Create a text file "intro.txt"
+# ask the user to write a
+Ssopen(intror.txt",
+text = input ("Enter
+fw.write (text)
+
+fw.close()
+
+in-python and
+
+ingle lir
+
+of text by User input.
+
+the
+
+= open("i
+data =fr.read()
+print (data)
+fr.close()
+
+ 
+

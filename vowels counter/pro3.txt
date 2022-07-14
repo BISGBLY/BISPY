@@ -1,0 +1,16 @@
+‘ormat Run Options Window Help
+nput ("Enter your name"’
+password =input ("Enter your passs ord")
+
+ 
+
+ 
+
+access (usr, pwd) :
+
+"Bright" and pwd == "12345":
+
+Teoe
+
+ 
+
