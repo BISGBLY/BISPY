@@ -41,6 +41,15 @@ else:                  #Else=else
 <pre ><code class="python">  
 abhi="bright international school"
 x = len(abhi)
-</pre>
 print(x)
+</pre>
+ <h1> #5 Write a python function to get a string where all occurrence of its first char have been changed to $ except the firstchar itself</h1>
+ <pre ><code class="python">
+ def change_char(str1):
+    char=str1[0]
+    str1=str1.replace(char,"$")
+    str1=char+str1[1:]
+    return str1
+print(change_char("restart"))
+</pre>
   
