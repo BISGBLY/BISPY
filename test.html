@@ -52,4 +52,57 @@ print(x)
     return str1
 print(change_char("restart"))
 </pre>
+ <h1>#5 Write a python function to get a string where all occurrence of its first char have been changed to $ except the firstchar itself.</h1>
+ <pre ><code class="python">
+def change_char(str1):
+    char=str1[0]
+    str1=str1.replace(char,"$")
+    str1=char+str1[1:]
+    return str1
+print(change_char("restart"))
+</pre>
+ <h1>#6 Write python program to remove duplicate from a list</h1>
+ <pre ><code class="python">
+a=[ 10 ,20 ,30, 20, 10, 50, 60, 40, 80, 50, 40]
+dup_items=[]
+uniq_items=[]
+for x in a:
+    if x not in dup_items:
+        uniq_items.append(x)
+        dup_items.append(x)
+    print(dup_items)
+</pre>
+ <h1>#8 Write a Python function to sum  all the item in a list.</h1>
+ <pre ><code class="python">
+def sum_list(items):
+    sum_numbers=0
+    for x in items:
+        sum_numbers+=x
+    return sum_numbers
+print(sum_list([1,2,-8]))
+</pre>
+</pre>
+ <h1>#9 Write a Python function to count and display the vowel of a given text.</h1>
+ <pre ><code class="python">
+st=input("Enter a string")
+st=st.lower()
+c=0
+
+v=["a","e","i","o","u"]
+
+for i in v:
+    c=c+1
+
+print(c)
+</pre>
+<h1>#10 Write a Python program iterate over dictionaries  using  for loops. </h1>
+ <pre ><code class="python">
+x=str(input("enter the vlaue of x"))
+y=str(input("enter the vlaue of y"))
+z=str(input("enter the vlaue of z"))
+d={"x":x,"y":y,"z":z}
+for dict_key,dict_value in d.items():
+    print(dict_key,"->.",dict_value)
+</pre>
+
   
